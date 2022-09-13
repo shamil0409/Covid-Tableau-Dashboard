@@ -17,6 +17,7 @@ order by 1,2
 -- 2. 
 
 -- We take these out as they are not inluded in the above queries and want to stay consistent
+--included*
 -- European Union is part of Europe
 
 Select location, SUM(cast(new_deaths as int)) as TotalDeathCount
